@@ -1,0 +1,18 @@
+import turtle
+
+t = turtle.Turtle()
+  
+s = int(input("Enter the length of the side of the square: "))
+  
+col = input("Enter the color name or hex value of color(# RRGGBB): ")
+  
+t.fillcolor(col)
+t.begin_fill()
+  
+# drawing the square of side s
+for _ in range(4):
+  t.forward(s)
+  t.right(90)
+  
+# ending the filling of the color
+t.end_fill
