@@ -13,6 +13,4 @@ t.begin_fill()
 for _ in range(4):
   t.forward(s)
   t.right(90)
-  
-# ending the filling of the color
 t.end_fill()
