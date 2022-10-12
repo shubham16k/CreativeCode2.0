@@ -8,6 +8,7 @@ col = input("Enter the color name or hex value of color(# RRGGBB): ")
   
 t.fillcolor(col)
 t.begin_fill()
+
   
 # drawing the square of side s
 for _ in range(4):
