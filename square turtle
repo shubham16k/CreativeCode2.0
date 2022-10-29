@@ -10,7 +10,7 @@ t.fillcolor(col)
 t.begin_fill()
 
   
-# drawing the square of side s
+
 for _ in range(4):
   t.forward(s)
   t.right(90)
