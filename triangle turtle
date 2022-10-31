@@ -16,6 +16,7 @@ t.begin_fill()
 for _ in range(3):
 
 t.forward(s)
+#lets kkkk
 
 t.right(-120)
 
